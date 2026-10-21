@@ -4,7 +4,12 @@ version = "0.1.0"
 description = "Predicting customer churn and estimating feedback-adjusted revenue at risk."
 readme = "README.md"
 requires-python = ">=3.12,<3.14"
-dependencies = []
+dependencies = [
+    "matplotlib>=3.11.2",
+    "numpy>=2.5.4",
+    "pandas>=3.0.6",
+    "seaborn>=0.13.2",
+]
 
 [dependency-groups]
 dev = [
