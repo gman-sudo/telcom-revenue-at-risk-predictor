@@ -1,0 +1,14 @@
+[project]
+name = "telcom-revenue-at-risk-predictor"
+version = "0.1.0"
+description = "Predicting customer churn and estimating feedback-adjusted revenue at risk."
+readme = "README.md"
+requires-python = ">=3.12,<3.14"
+dependencies = []
+
+[dependency-groups]
+dev = [
+    "pytest",
+    "ruff",
+    "ipykernel",
+]
